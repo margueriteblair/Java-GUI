@@ -11,5 +11,9 @@ public class GUI {
         panel.setLayout(new GridLayout(0, 1));
 
         frame.add(panel, BorderLayout.CENTER);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setTitle("Margie's GUI");
+        frame.pack();
+        frame.setVisible(true);
     }
 }
